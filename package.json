@@ -2,9 +2,20 @@
   "name": "database-iii-challenge",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/ItelSunday/database-iii-challenge.git",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ItelSunday/database-iii-challenge.git" 
+  },
+
+  "keywords": [],
   "author": "ItelSunday <iteldomingotech@gmail.com>",
   "license": "MIT",
+  
   "devDependencies": {
     "express": "^4.16.4",
     "helmet": "^3.16.0",
