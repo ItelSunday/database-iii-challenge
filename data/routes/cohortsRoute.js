@@ -1,6 +1,7 @@
 const express = require('express');
-const db = require('../dbConfig');
 const route = express.Router();
+
+const db = require('../dataConfig');
 
 // post new cohorts
 
